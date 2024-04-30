@@ -1,40 +1,24 @@
+
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <script type="importmap">
-    {
-      "imports": {
-        "lit": "https://cdn.jsdelivr.net/npm/lit/index.js",
-        "lit/": "https://cdn.jsdelivr.net/npm/lit/",
-        "lit-html": "https://cdn.jsdelivr.net/npm/lit-html/lit-html.js",
-        "lit-html/": "https://cdn.jsdelivr.net/npm/lit-html/",
-        "lit-element": "https://cdn.jsdelivr.net/npm/lit-element/lit-element.js",
-        "lit-element/": "https://cdn.jsdelivr.net/npm/lit-element/",
-        "@("@")lit/": "https://cdn.jsdelivr.net/npm/@("@")lit/",
-        "@("@")lit/reactive-element": "https://cdn.jsdelivr.net/npm/@("@")lit/reactive-element/reactive-element.js"
-      }
-    }
-  </script>
-  <script type="module" src="./my-element.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TestStarShips</title>
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
-  
+  <div class="wrapper">
+    <form class="form" onSubmit="return false;">
+      <input type="text" class="input" placeholder="Search..."></input>
+      <button type="button" class="button">Search</button>
+     
+    </form>
+    <ul class="options"></ul>
+  </div>
 
-  <style>
-    body { 
-      font-family: sans-serif; 
-      background-color:#e6e8f0;
-    }
-    h2 {
-      color: gray;
-    }
-  </style>
-  
-  <script type="module" src="./my-element.js"></script>
- 
-  
-  <my-element></my-element>
-  
+  <script src="./my-element.js"></script>
 </body>
 
 

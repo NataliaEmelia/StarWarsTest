@@ -133,8 +133,8 @@
     {
       "name": "Y-wing",
       "model": "BTL Y-wing",
-      "img": "../components/3708_ywing.jpeg",
-      "logo": "../components/first_galactic_logo.svg.png",
+      "img": "./StarWars/components/3708_ywing.jpeg",
+      "logo": "./StarWars/components/first_galactic_logo.svg.png",
       "manufacturer": "Koensayr Manufacturing",
       "cost_in_credits": "134999",
       "length": "14",
@@ -190,8 +190,8 @@
     {
       "name": "TIE Advanced x1",
       "model": "Twin Ion Engine Advanced x1",
-      "img": "../components/tie_advanced_imv6.webp",
-      "logo": "../components/first_galactic_logo.svg.png",
+      "img": "./StarWars/components/tie_advanced_imv6.webp",
+      "logo": "./StarWars/components/first_galactic_logo.svg.png",
       "manufacturer": "Sienar Fleet Systems",
       "cost_in_credits": "unknown",
       "length": "9.2",

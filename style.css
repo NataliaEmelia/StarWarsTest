@@ -28,7 +28,7 @@ input {
     padding: 30px 30px 30px 55px;
     border-radius: 10px;
     max-width: 705px;
-    background-image: url(../components/searchIcon.webp);  
+    background-image: url(./StarWars/components/searchIcon.webp);  
     background-repeat: no-repeat;   
     background-size: auto 30%;
     background-position: 20px;    

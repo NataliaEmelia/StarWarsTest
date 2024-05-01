@@ -133,8 +133,8 @@
     {
       "name": "Y-wing",
       "model": "BTL Y-wing",
-      "img": "./StarWars/components/3708_ywing.jpeg",
-      "logo": "./StarWars/components/first_galactic_logo.svg.png",
+      "img": "../StarWars/components/3708_ywing.jpeg",
+      "logo": "../StarWars/components/first_galactic_logo.svg.png",
       "manufacturer": "Koensayr Manufacturing",
       "cost_in_credits": "134999",
       "length": "14",
